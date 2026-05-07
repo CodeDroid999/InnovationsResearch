@@ -1,5 +1,5 @@
-# Innovations Research
-# Impact of AI in African Startups and Enterprise Success in 2025
+### Innovations Research
+#### Impact of AI in African Startups and Enterprise Success in 2025
 
 ## A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
 
