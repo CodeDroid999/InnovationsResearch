@@ -5,202 +5,846 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>AI Impact on African Startups - John Mwega</title>
-  <meta content="Comprehensive Study of AI Adoption for Investment Dynamics and the Future of Work in Africa" name="description">
+  <title>AI Impact on African Startups | John Mwega</title>
+
+  <meta name="description"
+    content="A comprehensive study on AI adoption, investment dynamics, and the future of work in African startups focusing on Kenya, Nigeria, and South Africa." />
+
+  <meta name="keywords"
+    content="AI Africa, African startups, machine learning, AI investment, Kenya tech, Nigeria startups, South Africa AI, future of work" />
+
+  <meta name="author" content="John Mwega">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI Impact on African Startups">
+  <meta property="og:description" content="Investment Dynamics & Future of Work in Africa">
+  <meta property="og:type" content="website">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700"
+    rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* =========================================================
+       GENERAL
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      background: #f5f7fb;
+      color: #272829;
+      line-height: 1.7;
+      overflow-x: hidden;
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Poppins", sans-serif;
+    }
+
+    section {
+      padding: 90px 0;
+      position: relative;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+    }
+
+    .container {
+      max-width: 1140px;
+    }
+
+    /* =========================================================
+       SIDEBAR
+    ========================================================= */
+
+    #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 300px;
+      background: #040b14;
+      z-index: 9999;
+      overflow-y: auto;
+      transition: all 0.4s ease;
+      padding: 30px 20px;
+    }
+
+    #main,
+    #footer {
+      margin-left: 300px;
+    }
+
+    .profile {
+      text-align: center;
+      padding-bottom: 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      margin-bottom: 25px;
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .profile h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .profile h1 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .profile p {
+      color: #cbd5e1;
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    /* =========================================================
+       NAVIGATION
+    ========================================================= */
+
+    .nav-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-menu li {
+      margin-bottom: 10px;
+    }
+
+    .nav-menu a {
+      display: flex;
+      align-items: center;
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .nav-menu a i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    .nav-menu a:hover,
+    .nav-menu .active {
+      background: #149ddd;
+      color: #fff;
+      transform: translateX(4px);
+    }
+
+    /* =========================================================
+       MOBILE NAV
+    ========================================================= */
+
+    .mobile-nav-toggle {
+      position: fixed;
+      right: 15px;
+      top: 15px;
+      z-index: 99999;
+      background: #149ddd;
+      color: #fff;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 30px;
+
+      background:
+        linear-gradient(rgba(4, 11, 20, 0.82), rgba(4, 11, 20, 0.9)),
+        url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop') center center/cover no-repeat;
+    }
+
+    .hero-container {
+      max-width: 900px;
+    }
+
+    #hero h1 {
+      color: #fff;
+      font-size: 58px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    #hero h2 {
+      color: #dbeafe;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 25px;
+    }
+
+    #hero p {
+      color: #f1f5f9;
+      font-size: 19px;
+    }
+
+    /* =========================================================
+       SECTION TITLES
+    ========================================================= */
+
+    .section-title {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .section-title h2 {
+      font-size: 38px;
+      font-weight: 700;
+      color: #173b6c;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 15px;
+    }
+
+    .section-title h2::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      width: 70px;
+      height: 4px;
+      border-radius: 50px;
+      background: #149ddd;
+    }
+
+    /* =========================================================
+       CARDS
+    ========================================================= */
+
+    .icon-box {
+      background: #fff;
+      padding: 35px 25px;
+      border-radius: 18px;
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.06);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .icon-box:hover {
+      transform: translateY(-6px);
+    }
+
+    .icon-box .icon {
+      margin-bottom: 20px;
+    }
+
+    .icon-box .icon i {
+      font-size: 38px;
+      color: #149ddd;
+    }
+
+    .icon-box .title {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .icon-box .description {
+      margin-bottom: 0;
+      color: #555;
+    }
+
+    /* =========================================================
+       BACKGROUNDS
+    ========================================================= */
+
+    .section-bg {
+      background: #eef4fb;
+    }
+
+    /* =========================================================
+       LISTS
+    ========================================================= */
+
+    .custom-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .custom-list li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 18px;
+      background: #fff;
+      padding: 18px 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .custom-list li i {
+      color: #149ddd;
+      font-size: 20px;
+      margin-right: 12px;
+      margin-top: 3px;
+    }
+
+    /* =========================================================
+       BADGES
+    ========================================================= */
+
+    .tech-badge {
+      background: #149ddd;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      margin: 6px;
+      display: inline-block;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    /* =========================================================
+       REFERENCES
+    ========================================================= */
+
+    .reference-item {
+      background: #fff;
+      padding: 18px 20px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    #footer {
+      background: #040b14;
+      color: #fff;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1199px) {
+
+      #header {
+        left: -300px;
+      }
+
+      #header.mobile-active {
+        left: 0;
+      }
+
+      #main,
+      #footer {
+        margin-left: 0;
+      }
+
+      .mobile-nav-toggle {
+        display: flex;
+      }
+    }
+
+    @media (max-width: 768px) {
+
+      section {
+        padding: 70px 0;
+      }
+
+      #hero h1 {
+        font-size: 38px;
+      }
+
+      #hero h2 {
+        font-size: 22px;
+      }
+
+      .section-title h2 {
+        font-size: 30px;
+      }
+
+      .icon-box {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- MOBILE TOGGLE -->
+  <div class="mobile-nav-toggle">
+    <i class="bi bi-list"></i>
+  </div>
 
-  <!-- ======= Header ======= -->
+  <!-- SIDEBAR -->
   <header id="header">
-    <div class="d-flex flex-column">
 
-      <div class="profile">
-        <img src="assets/img/dpicture.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">John Mwega</a></h1>
-        <p class="text-light text-center" style="font-size: 0.8rem;">JKUAT | SCT212-0055/2021</p>
-      </div>
+    <div class="profile">
+      <img src="assets/img/dpicture.jpg" alt="John Mwega">
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#abstract" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Abstract</span></a></li>
-          <li><a href="#problem" class="nav-link scrollto"><i class="bx bx-error-circle"></i> <span>Problem Statement</span></a></li>
-          <li><a href="#methodology" class="nav-link scrollto"><i class="bx bx-cog"></i> <span>Methodology</span></a></li>
-          <li><a href="#outcomes" class="nav-link scrollto"><i class="bx bx-line-chart"></i> <span>Expected Outcomes</span></a></li>
-          <li><a href="#references" class="nav-link scrollto"><i class="bx bx-book"></i> <span>References</span></a></li>
-        </ul>
-      </nav>
+      <h1>
+        <a href="#">John Mwega</a>
+      </h1>
+
+      <p>JKUAT | SCT212-0055/2021</p>
     </div>
+
+    <nav class="nav-menu">
+      <ul>
+        <li>
+          <a href="#hero" class="active">
+            <i class="bi bi-house"></i>
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="#abstract">
+            <i class="bi bi-file-earmark-text"></i>
+            Abstract
+          </a>
+        </li>
+
+        <li>
+          <a href="#problem">
+            <i class="bi bi-exclamation-triangle"></i>
+            Problem Statement
+          </a>
+        </li>
+
+        <li>
+          <a href="#methodology">
+            <i class="bi bi-diagram-3"></i>
+            Methodology
+          </a>
+        </li>
+
+        <li>
+          <a href="#outcomes">
+            <i class="bi bi-graph-up-arrow"></i>
+            Expected Outcomes
+          </a>
+        </li>
+
+        <li>
+          <a href="#references">
+            <i class="bi bi-book"></i>
+            References
+          </a>
+        </li>
+      </ul>
+    </nav>
+
   </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Impact of AI on African Startups</h1>
-      <h2>Investment Dynamics & Future of Work in 2025</h2>
-      <p class="mt-3" style="color: #fff;">A Case Study of Kenya, Nigeria, and South Africa</p>
-    </div>
-  </section>
-
+  <!-- MAIN -->
   <main id="main">
 
-    <!-- ======= Abstract Section ======= -->
-    <section id="abstract" class="about">
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-container" data-aos="fade-up">
+
+        <h1>
+          Impact of AI on African Startups
+        </h1>
+
+        <h2>
+          Investment Dynamics & Future of Work in 2025
+        </h2>
+
+        <p>
+          A Case Study of Kenya, Nigeria, and South Africa
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ABSTRACT -->
+    <section id="abstract">
+
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Abstract</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-12 content">
-            <p>
-              Artificial Intelligence (AI) is increasingly shaping entrepreneurial ecosystems worldwide; however, its measurable impact on African startups remains insufficiently examined. This study investigates the role of AI in African startups in 2025, with emphasis on <strong>Kenya, Nigeria, and South Africa</strong>.
-            </p>
-            <p>
-              Adopting a mixed-methods design, the study utilizes quantitative investment data and qualitative case studies. A key deliverable is the development of a <strong>Machine Learning-based predictive model</strong> to estimate startup success based on AI maturity, funding patterns, and workforce characteristics.
-            </p>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <div class="icon-box">
+
+              <p>
+                Artificial Intelligence (AI) is increasingly shaping entrepreneurial ecosystems worldwide; however, its
+                measurable impact on African startups remains insufficiently examined.
+              </p>
+
+              <p>
+                This study investigates the role of AI in African startups in 2025, with emphasis on
+                <strong>Kenya, Nigeria, and South Africa</strong>.
+              </p>
+
+              <p>
+                Adopting a mixed-methods design, the study utilizes quantitative investment data and qualitative case
+                studies.
+              </p>
+
+              <p>
+                A key deliverable is the development of a
+                <strong>Machine Learning-based predictive model</strong>
+                to estimate startup success based on AI maturity, funding patterns, and workforce characteristics.
+              </p>
+
+            </div>
+
           </div>
         </div>
+
       </div>
+
     </section>
 
-    <!-- ======= Problem Statement Section ======= -->
-    <section id="problem" class="services section-bg">
+    <!-- PROBLEM -->
+    <section id="problem" class="section-bg">
+
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Problem Statement</h2>
         </div>
-        <p>
-          Despite AI's global potential, many African startups struggle with effective integration. Key hurdles include:
-        </p>
-        <div class="row mt-4">
-          <div class="col-md-4 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title">Talent Gaps</h4>
-            <p class="description">Limited access to advanced AI expertise and technical skills across the continent.</p>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="icon-box">
+
+              <div class="icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+
+              <h4 class="title">
+                Talent Gaps
+              </h4>
+
+              <p class="description">
+                Limited access to advanced AI expertise and technical skills across the continent.
+              </p>
+
+            </div>
+
           </div>
-          <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-shield-lock"></i></div>
-            <h4 class="title">Regulatory Uncertainty</h4>
-            <p class="description">Fragmented national AI and data governance policies creating barriers to scaling.</p>
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="icon-box">
+
+              <div class="icon">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+
+              <h4 class="title">
+                Regulatory Uncertainty
+              </h4>
+
+              <p class="description">
+                Fragmented national AI and data governance policies creating barriers to scaling.
+              </p>
+
+            </div>
+
           </div>
-          <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-hdd-network"></i></div>
-            <h4 class="title">Infrastructure</h4>
-            <p class="description">Constraints in cloud computing and access to high-quality localized data sets.</p>
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="icon-box">
+
+              <div class="icon">
+                <i class="bi bi-hdd-network"></i>
+              </div>
+
+              <h4 class="title">
+                Infrastructure
+              </h4>
+
+              <p class="description">
+                Constraints in cloud computing and access to high-quality localized data sets.
+              </p>
+
+            </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- ======= Methodology Section ======= -->
-    <section id="methodology" class="skills">
+    <!-- METHODOLOGY -->
+    <section id="methodology">
+
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Methodology & Technologies</h2>
         </div>
-        <div class="row">
+
+        <div class="row gy-5">
+
           <div class="col-lg-6">
-            <h3>Research Approach</h3>
-            <ul>
-              <li><strong>Quantitative:</strong> Analysis of PitchBook, Crunchbase, and Partech Africa datasets (2019–2026).</li>
-              <li><strong>Qualitative:</strong> Semi-structured interviews with Founders, CTOs, and Investors.</li>
-              <li><strong>Predictive Modeling:</strong> Utilizing Random Forest and XGBoost for success forecasting.</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <h3>Tech Stack</h3>
-            <div class="d-flex flex-wrap">
-              <span class="badge bg-primary m-1 p-2">Python</span>
-              <span class="badge bg-primary m-1 p-2">Scikit-learn</span>
-              <span class="badge bg-primary m-1 p-2">XGBoost</span>
-              <span class="badge bg-primary m-1 p-2">Tableau</span>
-              <span class="badge bg-primary m-1 p-2">Power BI</span>
-              <span class="badge bg-primary m-1 p-2">Jupyter</span>
+
+            <div class="icon-box h-100">
+
+              <h3>
+                Research Approach
+              </h3>
+
+              <ul>
+                <li>
+                  <strong>Quantitative:</strong>
+                  Analysis of PitchBook, Crunchbase, and Partech Africa datasets (2019–2026).
+                </li>
+
+                <li>
+                  <strong>Qualitative:</strong>
+                  Semi-structured interviews with Founders, CTOs, and Investors.
+                </li>
+
+                <li>
+                  <strong>Predictive Modeling:</strong>
+                  Utilizing Random Forest and XGBoost for success forecasting.
+                </li>
+              </ul>
+
             </div>
+
           </div>
+
+          <div class="col-lg-6">
+
+            <div class="icon-box h-100">
+
+              <h3>
+                Tech Stack
+              </h3>
+
+              <div class="mt-4">
+
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">XGBoost</span>
+                <span class="tech-badge">Tableau</span>
+                <span class="tech-badge">Power BI</span>
+                <span class="tech-badge">Jupyter</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- ======= Expected Outcomes Section ======= -->
-    <section id="outcomes" class="about">
+    <!-- OUTCOMES -->
+    <section id="outcomes" class="section-bg">
+
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Expected Outcomes</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Comprehensive mapping of AI adoption across African tech hubs.</li>
-              <li><i class="bi bi-check-circle"></i> A validated ML model predicting startup success based on AI maturity.</li>
-              <li><i class="bi bi-check-circle"></i> Policy recommendations for AfCFTA frameworks and national governments.</li>
-              <li><i class="bi bi-check-circle"></i> Strategic insights for venture capital firms on AI-driven ROI.</li>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <ul class="custom-list">
+
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <span>
+                  Comprehensive mapping of AI adoption across African tech hubs.
+                </span>
+              </li>
+
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <span>
+                  A validated ML model predicting startup success based on AI maturity.
+                </span>
+              </li>
+
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <span>
+                  Policy recommendations for AfCFTA frameworks and national governments.
+                </span>
+              </li>
+
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <span>
+                  Strategic insights for venture capital firms on AI-driven ROI.
+                </span>
+              </li>
+
             </ul>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- ======= References Section ======= -->
-    <section id="references" class="contact">
+    <!-- REFERENCES -->
+    <section id="references">
+
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>References</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Partech Africa (2024). Africa Tech Venture Capital Report.</li>
-              <li class="list-group-item">Brynjolfsson, E., & McAfee, A. (2017). Machine, Platform, Crowd.</li>
-              <li class="list-group-item">Chen, T., et al. (2021). XGBoost: A scalable tree boosting system.</li>
-              <li class="list-group-item">Crunchbase (2025). African Startup Funding Data.</li>
-            </ul>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="reference-item">
+              Partech Africa (2024). Africa Tech Venture Capital Report.
+            </div>
+
+            <div class="reference-item">
+              Brynjolfsson, E., & McAfee, A. (2017). Machine, Platform, Crowd.
+            </div>
+
+            <div class="reference-item">
+              Chen, T., et al. (2021). XGBoost: A scalable tree boosting system.
+            </div>
+
+            <div class="reference-item">
+              Crunchbase (2025). African Startup Funding Data.
+            </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
-  </main><!-- End #main -->
+  </main>
 
-  <!-- ======= Footer ======= -->
+  <!-- FOOTER -->
   <footer id="footer">
+
     <div class="container">
-      <div class="copyright">
-        &copy; 2025 <strong><span>John Mwega</span></strong>. JKUAT BSc Computer Technology
+
+      <div>
+        © 2025
+        <strong>John Mwega</strong>
+        — JKUAT BSc Computer Technology
       </div>
+
     </div>
+
   </footer>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script>
+
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+
+    const toggle = document.querySelector(".mobile-nav-toggle");
+    const header = document.querySelector("#header");
+
+    toggle.addEventListener("click", () => {
+      header.classList.toggle("mobile-active");
+    });
+
+    // ACTIVE NAV LINK
+    const navLinks = document.querySelectorAll(".nav-menu a");
+
+    navLinks.forEach(link => {
+
+      link.addEventListener("click", () => {
+
+        navLinks.forEach(item => item.classList.remove("active"));
+
+        link.classList.add("active");
+
+        if (window.innerWidth < 1200) {
+          header.classList.remove("mobile-active");
+        }
+
+      });
+
+    });
+
+  </script>
 
 </body>
+
 </html>
