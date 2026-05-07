@@ -1,7 +1,7 @@
 ### Innovations Research
-#### Impact of AI in African Startups and Enterprise Success in 2025
+## Impact of AI in African Startups and Enterprise Success in 2025
 
-## A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
+#### A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
 
 ### Jomo Kenyatta University of Agriculture and Technology (JKUAT)
 
