@@ -13,7 +13,3 @@ I am deeply grateful to my family for their patience, understanding, moral suppo
 Finally, I acknowledge all researchers, authors, and developers whose published works, tools, and resources contributed significantly to this thesis.
 
 To all who contributed directly or indirectly, I sincerely thank you.
-
-
-
-Supervisor: Dr. Damaris Waema, PHd
