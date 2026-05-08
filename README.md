@@ -12,10 +12,9 @@
 | Item                | Details                                                        |
 | ------------------- | -------------------------------------------------------------- |
 | Author              | John Mwega                                                     |
-| Registration Number | SCT212-0055/2021                                               |
+| Student Number      | SCT212-0055/2021                                               |
 | Course Unit         | BCT2406 : Project                                              |
 | Program             | BSc. Computer Technology                                       |
-| Supervisor          | Dr. Damaris Waema, PhD                                         |
 | Institution         | Jomo Kenyatta University of Agriculture and Technology (JKUAT) |
 | Year                | 2025                                                           |
 
