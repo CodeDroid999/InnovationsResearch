@@ -16,6 +16,7 @@
 | Course Unit         | BCT2406 : Project                                              |
 | Program             | BSc. Computer Technology                                       |
 | Institution         | Jomo Kenyatta University of Agriculture and Technology (JKUAT) |
+| Supervisor          | Dr. Damaris Waema, PHd
 | Year                | 2025                                                           |
 
 ---
