@@ -3,7 +3,6 @@
 #### A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
 
 ### Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-
 ---
 
 ## Project Information
