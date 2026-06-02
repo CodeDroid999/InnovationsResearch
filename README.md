@@ -332,6 +332,3 @@ Special appreciation is extended to:
 John Mwega
 BSc. Computer Technology
 Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-
-GitHub Repository:
-[GitHub Profile](https://github.com/CodeDroid999?utm_source=chatgpt.com)
