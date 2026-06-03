@@ -4,7 +4,7 @@
 
 ### A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
 
-## Chapter One: Introduction
+## 1. Introduction
 
 ### 1.1 Background of the Study
 
@@ -54,9 +54,16 @@ This report is organized into six chapters. Chapter One introduces the study and
 
 ---
 
-## Chapter Two: System Analysis
+## 2. System Analysis
 
 This chapter examines the feasibility and requirements of conducting a data-driven investigation into AI adoption and startup performance across Africa.
+## Figure 1: System Architecture of the AI Startup Evaluation System
+
+The diagram below illustrates the end-to-end system design, including:
+API layer, backend services, model inference pipeline, frontend dashboard, and data flow.
+
+![System Architecture Diagram](./a_high_resolution_infographic_diagram_system_arc.png)
+
 
 ### 2.1 Feasibility Study
 
@@ -86,7 +93,7 @@ Potential limitations include incomplete startup records, data availability chal
 
 ---
 
-## Chapter Three: System Design
+## 3. System Design
 
 ### 3.1 Conceptual Framework
 
@@ -116,7 +123,7 @@ Data visualizations are developed to communicate trends, relationships, and pred
 
 ---
 
-## Chapter Four: Implementation
+## 4. Implementation
 
 ### 4.1 Tools and Technologies
 
@@ -142,7 +149,7 @@ Results were visualized using statistical charts and dashboards to support inter
 
 ---
 
-## Chapter Five: Evaluation and Discussion of Findings
+## 5. Evaluation and Discussion of Findings
 
 ### 5.1 Model Evaluation
 
@@ -178,7 +185,7 @@ The findings suggest that AI is becoming an important competitive advantage for 
 
 ---
 
-## Chapter Six: Conclusion and Recommendations
+## 6. Conclusion and Recommendations
 
 ### 6.1 Conclusion
 
@@ -202,6 +209,3 @@ Future studies should investigate additional African countries, explore sector-s
 
 ---
 
-## References
-
-All references shall be presented using APA 7th Edition citation guidelines.
