@@ -317,7 +317,7 @@ Mwega, J. (2025). Impact of AI in African Startups and Enterprise Success in 202
 
 # License
 
-This research project is intended for academic and educational purposes.
+This research project is intended for academic and educational purposes. Academia from the same will be utilised further for experimental market fit and product analysis
 
 ---
 
