@@ -62,7 +62,7 @@ This chapter examines the feasibility and requirements of conducting a data-driv
 The diagram below illustrates the end-to-end system design, including:
 API layer, backend services, model inference pipeline, frontend dashboard, and data flow.
 
-![System Architecture Diagram](./assets/infographic_diagram_system_arc.png)
+![System Architecture Diagram](./docs/assets/infographic_diagram_system_arc.png)
 
 
 ### 2.1 Feasibility Study
