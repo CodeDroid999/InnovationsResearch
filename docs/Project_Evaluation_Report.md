@@ -56,10 +56,7 @@ This report is organized into six chapters. Chapter One introduces the study and
 
 ## 2. System Analysis
 
-This chapter examines the feasibility and requirements of conducting a data-driven investigation into AI adoption and startup performance across Africa.
-## Figure 1: System Architecture of the AI Startup Evaluation System
-
-The diagram below illustrates the end-to-end system design, including:
+This chapter examines the feasibility and requirements of conducting a data-driven investigation into AI adoption and startup performance across Africa. The diagram below illustrates the end-to-end system design, including:
 API layer, backend services, model inference pipeline, frontend dashboard, and data flow.
 
 ![System Architecture Diagram](./assets/infographic_diagram_system_arc.png)
