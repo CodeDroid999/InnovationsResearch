@@ -108,6 +108,13 @@ Evaluation metrics:
 
 ---
 
+## Key of Inquiry.
+---
+
+**“If you were to build an AI-driven startup in Africa whose primary objective is to generate revenue through data-driven intelligence and automation, which industries would you prioritize for initial market entry, and why?”**
+
+This research aims to contribute to the evolving discourse on the commercialization of Artificial Intelligence within emerging economies, particularly in the context of African startup ecosystems. It seeks to generate actionable insights on sector prioritization, investment attractiveness, and scalability potential, while advancing understanding of how AI-enabled data capabilities can drive entrepreneurial success, venture capital engagement, and workforce transformation across key industries.
+
 # Key Findings
 
 ## AI and Startup Success
