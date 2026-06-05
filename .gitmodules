@@ -1,0 +1,3 @@
+[submodule "source/api/startupInn-text-description-endpoint"]
+	path = source/api/startupInn-text-description-endpoint
+	url = https://github.com/CodeDroid999/startupInn-text-description-endpoint.git
