@@ -1,0 +1,9 @@
+{
+    "firebase_hosting": {},
+    "cloud_run_deploy": {
+      "region": "us-central1",
+      "sourceFlag": "--source services/cloud-run",
+      "allowUnauthenticatedInvocationsFlag": "--allow-unauthenticated"
+    },
+    "gemini_api": {}
+  }

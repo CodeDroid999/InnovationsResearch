@@ -1,0 +1,28 @@
+{
+    "name": "Flutter app with Firebase AI logic",
+    "description": "A sample flutter app that demonstrates how to use the Gemini API with Firebase AI Logic",
+    "categories": [
+        "AI & ML",
+        "Web",
+        "Firebase",
+        "Flutter",
+        "Android",
+        "iOS"
+    ],
+    "icon_image_url": "https://www.gstatic.com/monospace/240513/logo_firebase.svg",
+    "publisher": "Google LLC",
+    "params": [
+        {
+            "id": "projectId",
+            "name": "Firebase Project ID",
+            "type": "string",
+            "required": true
+        },
+        {
+            "id": "bootstrapJs",
+            "name": "Sample App Bootstrap",
+            "type": "string",
+            "required": false
+        }
+    ]
+}
