@@ -7,17 +7,22 @@
 
 ## Project Information
 
-| Item                | Details                                                        |
-| ------------------- | -------------------------------------------------------------- |
-| Author              | John Mwega                                                     |
-| Student Number      | SCT212-0055/2021                                               |
-| Course Unit         | BCT2406 : Project                                              |
-| Program             | BSc. Computer Technology                                       |
-| Institution         | Jomo Kenyatta University of Agriculture and Technology (JKUAT) |
-| Supervisors         | Dr. Damaris Waema, PHd
-                      | Dr. Petronilla Muriithi, PHd
-                      | Dr. Eunice Njeri, PHd
-| Year                | 2025-2026                                                           |
+| Item           | Details                                                        |
+| -------------- | -------------------------------------------------------------- |
+| Author         | John Mwega                                                     |
+| Student Number | SCT212-0055/2021                                               |
+| Course Unit    | BCT2406: Project                                               |
+| Program        | BSc. Computer Technology                                       |
+| Institution    | Jomo Kenyatta University of Agriculture and Technology (JKUAT) |
+| Academic Year  | 2025–2026                                                      |
+
+### Supervisors
+
+| No. | Supervisor                   |
+| --- | ---------------------------- |
+| 1   | Dr. Damaris Waema, PhD       |
+| 2   | Dr. Petronilla Muriithi, PhD |
+| 3   | Dr. Eunice Njeri, PhD        |
 
 ---
 
