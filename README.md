@@ -24,7 +24,6 @@
 | 2   | Dr. Petronilla Muriithi, PhD |
 | 3   | Dr. Eunice Njeri, PhD        |
 
----
 
 # Abstract
 
