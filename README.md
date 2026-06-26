@@ -1,8 +1,11 @@
 ### Innovations Research
+
 ## Impact of AI in African Startups and Enterprises
+
 #### A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
 
 ### Jomo Kenyatta University of Agriculture and Technology (JKUAT)
+
 ---
 
 ## Project Information
@@ -24,7 +27,6 @@
 | 2   | Dr. Petronilla Muriithi, PhD |
 | 3   | Dr. Eunice Njeri, PhD        |
 
-
 # Abstract
 
 This research investigates the impact of Artificial Intelligence (AI) on African startups and enterprise success in 2025, focusing on AI exposure, startup investment dynamics, workforce transformation, and organizational sustainability. The study adopts a mixed-methods methodology combining quantitative statistical analysis, qualitative case studies, and machine learning predictive modeling.
@@ -36,6 +38,8 @@ Machine learning models including Logistic Regression, Random Forest, and Gradie
 The findings demonstrate that AI integration positively influences startup performance, investor confidence, workforce productivity, and scalability. However, the study also reveals that governance quality, institutional readiness, infrastructure availability, and technical workforce capacity remain critical determinants of sustainable AI-driven growth within African entrepreneurial ecosystems.
 
 ---
+
+![alt text](screenshots/screencapture-localhost-30000.png)
 
 # Research Objectives
 
@@ -57,24 +61,24 @@ To investigate the impact of AI adoption on African startups and enterprises in 
 
 The study focuses on:
 
-* Kenya
-* Nigeria
-* South Africa
+- Kenya
+- Nigeria
+- South Africa
 
 ### Sectors Covered
 
-* Fintech
-* Agritech
-* Health Technology
-* Logistics
-* E-Commerce
-* AI-native Startups
-* Enterprise Software
+- Fintech
+- Agritech
+- Health Technology
+- Logistics
+- E-Commerce
+- AI-native Startups
+- Enterprise Software
 
 ### Temporal Scope
 
-* 2023–2025 primary analysis
-* Historical macroeconomic indicators from 2000–2026
+- 2023–2025 primary analysis
+- Historical macroeconomic indicators from 2000–2026
 
 ---
 
@@ -84,37 +88,38 @@ The research uses a convergent mixed-methods design integrating:
 
 ## Quantitative Analysis
 
-* Startup funding analysis
-* Workforce analysis
-* Macroeconomic indicators
-* AI adoption metrics
+- Startup funding analysis
+- Workforce analysis
+- Macroeconomic indicators
+- AI adoption metrics
 
 ## Qualitative Analysis
 
-* Startup case studies
-* Failure analysis
-* Ecosystem evaluation
-* Policy analysis
+- Startup case studies
+- Failure analysis
+- Ecosystem evaluation
+- Policy analysis
 
 ## Machine Learning Modeling
 
 Algorithms implemented:
 
-* Logistic Regression
-* Random Forest
-* Gradient Boosting
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
 
 Evaluation metrics:
 
-* Accuracy
-* Precision
-* Recall
-* F1-score
-* ROC-AUC
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
 
 ---
 
 ## Key of Inquiry.
+
 ---
 
 **“If you were to build an AI-driven startup in Africa whose primary objective is to generate revenue through data-driven intelligence and automation, which industries would you prioritize for initial market entry, and why?”**
@@ -125,34 +130,33 @@ This research aims to contribute to the evolving discourse on the commercializat
 
 ## AI and Startup Success
 
-* AI-intensive startups showed stronger scalability and operational resilience.
-* Startups with advanced AI workforce exposure demonstrated higher survival probabilities.
+- AI-intensive startups showed stronger scalability and operational resilience.
+- Startups with advanced AI workforce exposure demonstrated higher survival probabilities.
 
 ## Investment Dynamics
 
-* Fintech remained Africa’s dominant AI-enabled investment sector.
-* AI maturity positively influenced investor confidence and funding rounds.
+- Fintech remained Africa’s dominant AI-enabled investment sector.
+- AI maturity positively influenced investor confidence and funding rounds.
 
 ## Workforce Transformation
 
-* AI increased demand for:
+- AI increased demand for:
+  - Data scientists
+  - Machine learning engineers
+  - Cloud specialists
+  - AI product managers
 
-  * Data scientists
-  * Machine learning engineers
-  * Cloud specialists
-  * AI product managers
-
-* Routine administrative functions experienced increased automation pressure.
+- Routine administrative functions experienced increased automation pressure.
 
 ## Structural Challenges
 
 Major barriers identified include:
 
-* Limited infrastructure
-* Talent shortages
-* Regulatory uncertainty
-* Data limitations
-* Uneven AI readiness
+- Limited infrastructure
+- Talent shortages
+- Regulatory uncertainty
+- Data limitations
+- Uneven AI readiness
 
 ---
 
@@ -186,24 +190,24 @@ The study integrates three major datasets:
 
 ## Programming and Analysis
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter Notebook
 
 ## Visualization
 
-* Matplotlib
-* Seaborn
-* Tableau
+- Matplotlib
+- Seaborn
+- Tableau
 
 ## Data Sources
 
-* Crunchbase
-* World Bank Open Data
-* Startup Graveyard Africa
-* African startup ecosystem reports
+- Crunchbase
+- World Bank Open Data
+- Startup Graveyard Africa
+- African startup ecosystem reports
 
 ---
 
@@ -331,10 +335,10 @@ This research project is intended for academic and educational purposes. Academi
 
 Special appreciation is extended to:
 
-* Dr. Damaris Waema, PhD
-* Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-* African startup ecosystem researchers and institutions
-* Public data providers and open research platforms
+- Dr. Damaris Waema, PhD
+- Jomo Kenyatta University of Agriculture and Technology (JKUAT)
+- African startup ecosystem researchers and institutions
+- Public data providers and open research platforms
 
 ---
 
