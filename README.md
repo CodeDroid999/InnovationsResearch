@@ -1,6 +1,6 @@
 ### Innovations Research
 
-## Impact of AI in African Startups and Enterprises
+## Impact of AI in  Startups and Enterprises
 
 #### A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work
 
@@ -29,13 +29,13 @@
 
 # Abstract
 
-This research investigates the impact of Artificial Intelligence (AI) on African startups and enterprise success in 2025, focusing on AI exposure, startup investment dynamics, workforce transformation, and organizational sustainability. The study adopts a mixed-methods methodology combining quantitative statistical analysis, qualitative case studies, and machine learning predictive modeling.
+This research investigates the impact of Artificial Intelligence (AI) on  startups and enterprise success in 2025, focusing on AI exposure, startup investment dynamics, workforce transformation, and organizational sustainability. The study adopts a mixed-methods methodology combining quantitative statistical analysis, qualitative case studies, and machine learning predictive modeling.
 
 The research specifically analyzes startup ecosystems in Kenya, Nigeria, and South Africa, which represent Africa’s leading innovation and venture-capital hubs. The study evaluates how AI adoption affects startup scalability, funding attraction, operational efficiency, labor-market transformation, and enterprise survival.
 
 Machine learning models including Logistic Regression, Random Forest, and Gradient Boosting classifiers were implemented to predict startup success probabilities using AI-related workforce, investment, and macroeconomic indicators.
 
-The findings demonstrate that AI integration positively influences startup performance, investor confidence, workforce productivity, and scalability. However, the study also reveals that governance quality, institutional readiness, infrastructure availability, and technical workforce capacity remain critical determinants of sustainable AI-driven growth within African entrepreneurial ecosystems.
+The findings demonstrate that AI integration positively influences startup performance, investor confidence, workforce productivity, and scalability. However, the study also reveals that governance quality, institutional readiness, infrastructure availability, and technical workforce capacity remain critical determinants of sustainable AI-driven growth within  entrepreneurial ecosystems.
 
 ---
 
@@ -45,11 +45,11 @@ The findings demonstrate that AI integration positively influences startup perfo
 
 ## General Objective
 
-To investigate the impact of AI adoption on African startups and enterprises in 2025, with emphasis on investment dynamics and workforce transformation.
+To investigate the impact of AI adoption on  startups and enterprises in 2025, with emphasis on investment dynamics and workforce transformation.
 
 ## Specific Objectives
 
-1. Analyze AI exposure and adoption among African startups.
+1. Analyze AI exposure and adoption among  startups.
 2. Evaluate the impact of AI on investment and venture capital outcomes.
 3. Assess AI-driven workforce transformation and skills demand.
 4. Identify key success factors and barriers affecting AI integration.
@@ -124,7 +124,7 @@ Evaluation metrics:
 
 **“If you were to build an AI-driven startup in Africa whose primary objective is to generate revenue through data-driven intelligence and automation, which industries would you prioritize for initial market entry, and why?”**
 
-This research aims to contribute to the evolving discourse on the commercialization of Artificial Intelligence within emerging economies, particularly in the context of African startup ecosystems. It seeks to generate actionable insights on sector prioritization, investment attractiveness, and scalability potential, while advancing understanding of how AI-enabled data capabilities can drive entrepreneurial success, venture capital engagement, and workforce transformation across key industries.
+This research aims to contribute to the evolving discourse on the commercialization of Artificial Intelligence within emerging economies, particularly in the context of  startup ecosystems. It seeks to generate actionable insights on sector prioritization, investment attractiveness, and scalability potential, while advancing understanding of how AI-enabled data capabilities can drive entrepreneurial success, venture capital engagement, and workforce transformation across key industries.
 
 # Key Findings
 
@@ -207,7 +207,7 @@ The study integrates three major datasets:
 - Crunchbase
 - World Bank Open Data
 - Startup Graveyard Africa
-- African startup ecosystem reports
+-  startup ecosystem reports
 
 ---
 
@@ -215,14 +215,14 @@ The study integrates three major datasets:
 
 ## Startup Ecosystem and Funding Reports
 
-1. Statista — African startups by country
-   [Statista African Startup Statistics](https://www.statista.com/statistics/1290679/number-of-startups-in-africa-by-country/?utm_source=chatgpt.com)
+1. Statista —  startups by country
+   [Statista  Startup Statistics](https://www.statista.com/statistics/1290679/number-of-startups-in-africa-by-country/?utm_source=chatgpt.com)
 
 2. Mozilla Africa Startup Ecosystem Report
    [Mozilla Africa Startup Ecosystem Report](https://mozilla.africa/wp-content/uploads/2023/11/africa-startup-ecosystem-report-1g.pdf?utm_source=chatgpt.com)
 
 3. Disrupt Africa Funding Report
-   [Disrupt Africa Funding Report 2023](https://uhm.kzo.mybluehost.me/wp-content/uploads/2024/01/The-African-Tech-Startups-Funding-Report-2023-1.pdf?utm_source=chatgpt.com)
+   [Disrupt Africa Funding Report 2023](https://uhm.kzo.mybluehost.me/wp-content/uploads/2024/01/The--Tech-Startups-Funding-Report-2023-1.pdf?utm_source=chatgpt.com)
 
 4. Briter Bridges / Africa Investment Reports
    [Briter Bridges Africa Investment Insights](https://briterbridges.com?utm_source=chatgpt.com)
@@ -286,8 +286,8 @@ The study integrates three major datasets:
 3. OECD AI Policy Observatory
    [OECD AI Observatory](https://oecd.ai?utm_source=chatgpt.com)
 
-4. African Development Bank
-   [African Development Bank](https://www.afdb.org?utm_source=chatgpt.com)
+4.  Development Bank
+   [ Development Bank](https://www.afdb.org?utm_source=chatgpt.com)
 
 ---
 
@@ -320,7 +320,7 @@ The study integrates three major datasets:
 # Recommended Citation
 
 ```text
-Mwega, J. (2025). Impact of AI in African Startups and Enterprise Success in 2025: A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work. Jomo Kenyatta University of Agriculture and Technology (JKUAT).
+Mwega, J. (2025). Impact of AI in  Startups and Enterprise Success in 2025: A Comprehensive Study of Exposure, Application, and Implications of Artificial Intelligence for Investment Dynamics and the Future of Work. Jomo Kenyatta University of Agriculture and Technology (JKUAT).
 ```
 
 ---
@@ -337,7 +337,7 @@ Special appreciation is extended to:
 
 - Dr. Damaris Waema, PhD
 - Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-- African startup ecosystem researchers and institutions
+-  startup ecosystem researchers and institutions
 - Public data providers and open research platforms
 
 ---
