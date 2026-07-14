@@ -1,4 +1,190 @@
-Your notebook contains **68 cells** (markdown and code). It follows a complete machine learning pipeline. Below is a cell-by-cell explanation.
+From the notebook, the project builds predictive machine learning models using **combined datasets** (World Bank, Startup Funding, and Global Workforce data) to analyze the **impact of AI on African startups**. The notebook trains, tunes, evaluates, and saves multiple models.
+
+## Computations Performed
+
+### 1. Data Integration
+
+- Combines multiple datasets into one dataset.
+- Removes missing values.
+- Selects predictor (feature) variables and the target variable.
+
+### 2. Feature Engineering
+
+The model uses features from three domains:
+
+**Economic indicators**
+
+- Agriculture (% GDP)
+- Industry (% GDP)
+- Service (% GDP)
+- Education expenditure
+- Health expenditure
+- Population
+- Inflation rate
+
+**Startup ecosystem**
+
+- Total funding
+- Funding rounds
+- Average funding per round
+- Funding diversity
+- Company age
+- US-based indicator
+- Log of total funding
+
+**AI and workforce**
+
+- AI investment
+- Automation rate
+- Employment rate
+- Average salary
+- Productivity index
+- Reskilling investment
+- AI policy index
+
+### 3. Data Preprocessing
+
+- Cleans missing values.
+- Splits the dataset into **80% training** and **20% testing**.
+- Standardizes (scales) numerical features using `StandardScaler`.
+
+### 4. Model Training
+
+The notebook trains different machine learning algorithms depending on the prediction task.
+
+**Classification models**
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+
+**Regression models**
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+### 5. Feature Importance
+
+For tree-based models, the notebook computes **feature importance** scores to identify which variables contribute most to predictions.
+
+### 6. Hyperparameter Tuning
+
+The notebook improves model performance using **GridSearchCV**.
+
+Examples of tuned parameters include:
+
+- Maximum tree depth
+- Minimum samples per split
+- Minimum samples per leaf
+- Number of trees
+- Learning rate (Gradient Boosting)
+
+### 7. Cross-Validation
+
+Performs **5-fold cross-validation** to estimate how well each model generalizes to unseen data.
+
+### 8. Model Evaluation
+
+The notebook computes several evaluation metrics.
+
+For regression:
+
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- R² Score
+
+For classification (libraries are imported for these metrics):
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+- Classification Report
+
+### 9. Model Saving
+
+The trained models are saved as `.joblib` files for later use.
+
+---
+
+# What the Models Can Do
+
+The notebook's models can:
+
+- Predict startup success (when using a classification target such as `target_success`).
+- Predict continuous outcomes (when using a regression target such as AI readiness or GDP per capita).
+- Estimate the probability that a startup will succeed (classification models).
+- Rank the most influential factors affecting startup performance through feature importance.
+- Compare multiple algorithms to identify the best-performing model.
+- Make predictions on new startup or economic data after training.
+- Evaluate model performance on unseen test data.
+- Support decision-making by identifying key drivers such as AI investment, funding, productivity, education spending, or AI policy.
+
+---
+
+## Machine Learning Pipeline
+
+```text
+Raw Datasets
+      │
+      ▼
+Combine Datasets
+      │
+      ▼
+Clean Missing Values
+      │
+      ▼
+Select Features & Target
+      │
+      ▼
+Train/Test Split (80/20)
+      │
+      ▼
+Feature Scaling
+      │
+      ▼
+Train Models
+(Logistic Regression,
+Decision Tree,
+Random Forest,
+Linear Regression,
+Gradient Boosting)
+      │
+      ▼
+Hyperparameter Tuning
+      │
+      ▼
+Cross Validation
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
+Feature Importance
+      │
+      ▼
+Save Trained Models (.joblib)
+```
+
+## Expected Outputs
+
+The notebook produces:
+
+- Trained machine learning models.
+- Performance metrics (Accuracy, R², RMSE, MAE, etc.).
+- Feature importance rankings.
+- A CSV file containing model evaluation results (`model_evaluation_results.csv`).
+- Saved `.joblib` model files for deployment or future prediction.
+
+Overall, this notebook implements a complete machine learning workflow—from data preparation and preprocessing through model training, optimization, evaluation, interpretation, and persistence—for analyzing and predicting outcomes related to the impact of AI on African startups.
+
+#Code Analysis
+
+The notebook contains **68 cells** (markdown and code). It follows a complete machine learning pipeline. Below is a cell-by-cell explanation.
 
 ---
 
@@ -6,8 +192,8 @@ Your notebook contains **68 cells** (markdown and code). It follows a complete m
 
 ## Cell 0 – Cover Image
 
-* Displays the notebook cover image.
-* No computation is performed.
+- Displays the notebook cover image.
+- No computation is performed.
 
 ---
 
@@ -15,9 +201,9 @@ Your notebook contains **68 cells** (markdown and code). It follows a complete m
 
 Explains:
 
-* The motivation for studying AI in African startups.
-* The business problem.
-* The expected outcomes.
+- The motivation for studying AI in African startups.
+- The business problem.
+- The expected outcomes.
 
 **Purpose:** Provides project background.
 
@@ -27,13 +213,13 @@ Explains:
 
 Introduces the project:
 
-> *Impact of AI in African Startups and Enterprise Success in 2025*
+> _Impact of AI in African Startups and Enterprise Success in 2025_
 
 Describes:
 
-* Research objectives.
-* AI adoption.
-* Enterprise success.
+- Research objectives.
+- AI adoption.
+- Enterprise success.
 
 ---
 
@@ -69,11 +255,11 @@ Explains why each library is needed.
 
 Examples include:
 
-* pandas
-* NumPy
-* matplotlib
-* scikit-learn
-* joblib
+- pandas
+- NumPy
+- matplotlib
+- scikit-learn
+- joblib
 
 ---
 
@@ -83,22 +269,22 @@ This is the first computation cell.
 
 It imports libraries such as:
 
-* pandas
-* numpy
-* matplotlib
-* seaborn
-* sklearn
-* joblib
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- sklearn
+- joblib
 
 **Purpose**
 
 Provides functions for:
 
-* reading datasets
-* preprocessing
-* visualization
-* machine learning
-* saving models
+- reading datasets
+- preprocessing
+- visualization
+- machine learning
+- saving models
 
 ---
 
@@ -126,8 +312,8 @@ Countries.csv
 
 Computations:
 
-* Read CSV
-* Create dataframe
+- Read CSV
+- Create dataframe
 
 Output:
 
@@ -187,10 +373,10 @@ gw_df
 
 These cells perform
 
-* dataframe shape
-* info()
-* head()
-* statistics
+- dataframe shape
+- info()
+- head()
+- statistics
 
 Purpose
 
@@ -214,25 +400,25 @@ Perform quality checks.
 
 Computations include
 
-* Missing values
+- Missing values
 
 ```python
 isnull().sum()
 ```
 
-* Duplicate rows
+- Duplicate rows
 
 ```python
 duplicated()
 ```
 
-* Data types
+- Data types
 
 ```python
 dtypes
 ```
 
-* Dataset dimensions
+- Dataset dimensions
 
 ```python
 shape
@@ -250,19 +436,19 @@ Cleaning operations.
 
 Typical computations
 
-* Remove missing values
+- Remove missing values
 
 ```python
 dropna()
 ```
 
-* Remove duplicates
+- Remove duplicates
 
 ```python
 drop_duplicates()
 ```
 
-* Reset index
+- Reset index
 
 ```python
 reset_index()
@@ -284,11 +470,11 @@ EDA for World Bank data.
 
 Computations
 
-* Mean
-* Median
-* Standard deviation
-* Correlation
-* Histograms
+- Mean
+- Median
+- Standard deviation
+- Correlation
+- Histograms
 
 Purpose
 
@@ -302,10 +488,10 @@ EDA for Startup Funding.
 
 Analyzes
 
-* Funding distribution
-* Startup status
-* Categories
-* Investment trends
+- Funding distribution
+- Startup status
+- Categories
+- Investment trends
 
 ---
 
@@ -315,11 +501,11 @@ EDA for AI Workforce.
 
 Analyzes
 
-* AI adoption
-* Employment
-* Automation
-* Salaries
-* Skills
+- AI adoption
+- Employment
+- Automation
+- Salaries
+- Skills
 
 Purpose
 
@@ -339,9 +525,9 @@ World Bank Features
 
 Examples
 
-* GDP ratios
-* Economic indicators
-* Composite variables
+- GDP ratios
+- Economic indicators
+- Composite variables
 
 Purpose
 
@@ -355,10 +541,10 @@ Startup Features
 
 Creates variables such as
 
-* Total funding
-* Funding rounds
-* Startup age
-* Funding diversity
+- Total funding
+- Funding rounds
+- Startup age
+- Funding diversity
 
 Purpose
 
@@ -372,10 +558,10 @@ AI Workforce Features
 
 Creates
 
-* AI readiness
-* Productivity measures
-* Skill indicators
-* Automation scores
+- AI readiness
+- Productivity measures
+- Skill indicators
+- Automation scores
 
 Purpose
 
@@ -389,11 +575,11 @@ These cells create graphs.
 
 Examples include
 
-* Histograms
-* Scatter plots
-* Correlation heatmaps
-* Bar charts
-* Boxplots
+- Histograms
+- Scatter plots
+- Correlation heatmaps
+- Bar charts
+- Boxplots
 
 Purpose
 
@@ -447,11 +633,11 @@ Standardizes variables.
 
 The notebook trains models including
 
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* Linear Regression
-* Gradient Boosting
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Linear Regression
+- Gradient Boosting
 
 Each model learns patterns from the training data.
 
@@ -463,16 +649,16 @@ Computes metrics such as
 
 Regression
 
-* RMSE
-* MAE
-* R²
+- RMSE
+- MAE
+- R²
 
 Classification
 
-* Accuracy
-* Precision
-* Recall
-* F1-score
+- Accuracy
+- Precision
+- Recall
+- F1-score
 
 ---
 
@@ -528,10 +714,10 @@ GridSearchCV
 
 Searches for optimal values of parameters like:
 
-* max_depth
-* n_estimators
-* min_samples_split
-* learning_rate
+- max_depth
+- n_estimators
+- min_samples_split
+- learning_rate
 
 Purpose
 
@@ -569,10 +755,10 @@ Summarizes findings.
 
 Discusses
 
-* Model performance
-* AI impact
-* Important predictors
-* Business implications
+- Model performance
+- AI impact
+- Important predictors
+- Business implications
 
 ---
 
